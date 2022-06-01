@@ -26,7 +26,7 @@ const SiteHeader = ({ globalData, sitemapNode, page }) => {
             <Link href="/">
               <a className="flex items-center">
                 <img
-                  className="h-14 sm:h-20 w-auto z-50"
+                  className="h-14 sm:h-20 w-auto "
                   src={header.logo.url}
                   alt={header.logo.label}
                   title={header.logo.siteName}

@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@agility/content-fetch@^1.0.0", "@agility/content-fetch@^1.1.1":
+"@agility/content-fetch@^1.0.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-1.1.1.tgz#d8a91ceea8e7809c84ee954cb08444071612b3e0"
   integrity sha512-d7IyZSYL16HGOMhnWs/W4rMqMBUSHfTelDdxrwuGuc3EXlth83VwPVsZZuIxQDI5EJzXOcsvMUT6B1ENDSrd5A==
@@ -10,19 +10,27 @@
     axios "^0.21.1"
     axios-cache-adapter "^2.4.1"
 
-"@agility/content-sync@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@agility/content-sync/-/content-sync-1.0.3.tgz#33441a17fb7b22a54f51a870c8fecf5d211298f2"
-  integrity sha512-KhaSiD3j+XXh2/oWy3+WrizBHGTxq33yWX6Qow4sGIRH4o5+suQzuBEZUyj/Kj5fEDuTV6AJIJseKhggQbaNpA==
+"@agility/content-fetch@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-1.1.3.tgz#bbb04d1f0fa53319c96395b67996b9f346f9a8d1"
+  integrity sha512-GAePeNKU69f5VyaGWe/p5hdO3H8aMQ4l1tQCwza5fDmPBxuQoFbo+TYsVyZozAMk+BCj3ED0AFNs77Y2XGRofQ==
+  dependencies:
+    axios "^0.21.1"
+    axios-cache-adapter "^2.4.1"
+
+"@agility/content-sync@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@agility/content-sync/-/content-sync-1.1.3.tgz#0937a4b35d0b1cef825ccb0f83b9b9bec78d9cc2"
+  integrity sha512-AV9d+oUfVvlAXtQsYJaoAHy9PK0eiwzqk2OkP8VhoGZsex6THx98Cxr5GEpjvH5m8bYhTJQhbbBndFoBGmzj0Q==
   dependencies:
     "@agility/content-fetch" "^1.0.0"
     dotenv "^8.2.0"
     proper-lockfile "^4.1.2"
 
-"@agility/nextjs@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@agility/nextjs/-/nextjs-0.2.0.tgz#6e51debc03247e9a40e44700d9795b56f785d7b2"
-  integrity sha512-4whXxNGcnkd0tZt0oLG/rJ+i7wHeLAHlaXEiFp25NusywMtA8dGj6iMxWam8uA5jSHUof2UM0jUtiOsX9riAow==
+"@agility/nextjs@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@agility/nextjs/-/nextjs-0.4.2.tgz#7399c176fedc5185178e5d84c7dc644d540d9110"
+  integrity sha512-CXX68ZzBHAt9/lHisBxSHxEanZ8ydAXc/lzUxpw8jLlBfKXxTpuU1+Qrp5kppDmNWT2u2y8+0w5VcOlpPamvFw==
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
@@ -81,6 +89,30 @@
     esutils "^2.0.2"
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
+
+"@cloudinary/html@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@cloudinary/html/-/html-1.0.1.tgz#75486ae42228cac24c7e2ed4b42d47b6b82a43dc"
+  integrity sha512-V7DTDIOpassEmCaL/AWp/39WhQA8zFjtSHFXz9D4+E+Si/eui5YQBXs0GEB6X2qGSUUBHuvu4TdPRJiw8OHtwQ==
+  dependencies:
+    "@types/lodash.clonedeep" "^4.5.6"
+    "@types/lodash.debounce" "^4.0.6"
+    "@types/node" "^14.14.10"
+    lodash.clonedeep "^4.5.0"
+    lodash.debounce "^4.0.8"
+    typescript "^4.1.2"
+
+"@cloudinary/react@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@cloudinary/react/-/react-1.0.1.tgz#6e8d15deddbb0575e34d2ac269cb02806ccbe36d"
+  integrity sha512-nQWsBlKtWar6TS+AMLO18Uv5MzHC7kpekfnOLYpkaCAn1BIoHOsrhJXY72hYf43+mB31iXmgCLzNB1buSsycgQ==
+  dependencies:
+    "@cloudinary/html" "^1.0.1"
+
+"@cloudinary/url-gen@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@cloudinary/url-gen/-/url-gen-1.5.1.tgz#99c4c67323e1e16829858b6c0ddc7747588591ce"
+  integrity sha512-4rj4I0LXbo9pqOt2IxH3w7tD120TnJCo5hBWqyFZEDlOUULUY6wO7IADp+DS47uj56G1/jprxleciVy7EKAk4Q==
 
 "@fullhuman/postcss-purgecss@^4.0.3":
   version "4.0.3"
@@ -162,6 +194,13 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
+"@tailwindcss/forms@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/forms/-/forms-0.5.1.tgz#7fe86b9b67e6d91cb902e2d3f4ebe561cc057a13"
+  integrity sha512-QSwsFORnC2BAP0lRzQkz1pw+EzIiiPdk4e27vGQjyXkwJPeC7iLIRVndJzf9CJVbcrrIcirb/TfxF3gRTyFEVA==
+  dependencies:
+    mini-svg-data-uri "^1.2.3"
+
 "@tailwindcss/typography@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.4.1.tgz#51ddbceea6a0ee9902c649dbe58871c81a831212"
@@ -179,10 +218,34 @@
   dependencies:
     "@types/node" "*"
 
+"@types/lodash.clonedeep@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@types/lodash.clonedeep/-/lodash.clonedeep-4.5.6.tgz#3b6c40a0affe0799a2ce823b440a6cf33571d32b"
+  integrity sha512-cE1jYr2dEg1wBImvXlNtp0xDoS79rfEdGozQVgliDZj1uERH4k+rmEMTudP9b4VQ8O6nRb5gPqft0QzEQGMQgA==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash.debounce@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@types/lodash.debounce/-/lodash.debounce-4.0.6.tgz#c5a2326cd3efc46566c47e4c0aa248dc0ee57d60"
+  integrity sha512-4WTmnnhCfDvvuLMaF3KV4Qfki93KebocUF45msxhYyjMttZDQYzHkO639ohhk8+oco2cluAFL3t5+Jn4mleylQ==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*":
+  version "4.14.178"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.178.tgz#341f6d2247db528d4a13ddbb374bcdc80406f4f8"
+  integrity sha512-0d5Wd09ItQWH1qFbEyQ7oTQ3GZrMfth5JkbN3EvTKLXcHLRDSXeLnlvlOn0wvxVIwK5o2M8JzP/OWz7T3NRsbw==
+
 "@types/node@*", "@types/node@^14.14.35":
   version "14.14.35"
   resolved "https://registry.npmjs.org/@types/node/-/node-14.14.35.tgz"
   integrity sha512-Lt+wj8NVPx0zUmUwumiVXapmaLUcAk3yPuHCFVXras9k5VT9TdhJqKqGVUQCD60OTMCl0qxJ57OiTL0Mic3Iag==
+
+"@types/node@^14.14.10":
+  version "14.18.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.10.tgz#774f43868964f3cfe4ced1f5417fe15818a4eaea"
+  integrity sha512-6iihJ/Pp5fsFJ/aEDGyvT4pHGmCpq7ToQ/yf4bl5SbVAvwpspYJ+v3jO7n8UyjhQVHTy+KNszOozDdv+O6sovQ==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1615,6 +1678,16 @@ lodash.castarray@^4.4.0:
   resolved "https://registry.npmjs.org/lodash.castarray/-/lodash.castarray-4.4.0.tgz"
   integrity sha1-wCUTUV4wna3dTCTGDP3c9ZdtkRU=
 
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
+
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
+
 lodash.defaults@^4.0.1:
   version "4.2.0"
   resolved "https://registry.npmjs.org/lodash.defaults/-/lodash.defaults-4.2.0.tgz"
@@ -1752,6 +1825,11 @@ miller-rabin@^4.0.0:
   dependencies:
     bn.js "^4.0.0"
     brorand "^1.0.1"
+
+mini-svg-data-uri@^1.2.3:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.4.4.tgz#8ab0aabcdf8c29ad5693ca595af19dd2ead09939"
+  integrity sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
@@ -2777,6 +2855,11 @@ type-fest@^0.7.1:
   version "0.7.1"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.7.1.tgz"
   integrity sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==
+
+typescript@^4.1.2:
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
+  integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
 typescript@^4.2.3:
   version "4.2.3"
